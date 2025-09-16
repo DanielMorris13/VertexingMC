@@ -1,0 +1,21 @@
+# CMake build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# ROOT generated files
+*.rootmap
+*_rdict.pcm
+G__*.cxx
+
+# Executables
+/bin/
+fastMC
+*.o
+
+# OS or IDE files
+.DS_Store
+*.swp
+*.vscode/
