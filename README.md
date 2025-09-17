@@ -23,15 +23,15 @@ Dependencies:
 
 ## Quick Start
 
-git clone https://github.com/your-username/VertexingMC.git
+	git clone https://github.com/DanielMorris13/VertexingMC.git
 
-cd VertexingMC
+	cd VertexingMC
 
-mkdir build && cd build
+	mkdir build && cd build
+	
+	cmake ..
 
-cmake ..
-
-./fastMC
+	./fastMC
 
 ### Output
 
