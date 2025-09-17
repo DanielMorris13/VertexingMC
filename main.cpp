@@ -6,7 +6,7 @@
 
 int main(){
 
-    simulation("~/Desktop/C++/TANS-ProgettoEsame/ProgettoFinale_2002/","sim",1e4,1,20);
+    simulation("~/Desktop/C++/TANS-ProgettoEsame/VertexingMC/","sim",1e4,1,20);
     reconstruction("sim");
 
     std::cout << "reconstruction completed - ChadFace" << std::endl;
@@ -14,6 +14,6 @@ int main(){
     moltepl("rec_sim");
     ztrue("rec_sim");
 
-    std::cout << "All graphs produced - PogChamp" << std::endl;
+    std::cout << endl << "All graphs produced - PogChamp" << std::endl;
     return 0;
 }
