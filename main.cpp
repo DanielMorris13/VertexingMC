@@ -14,6 +14,6 @@ int main(){
     moltepl("rec_sim");
     ztrue("rec_sim");
 
-    std::cout << endl << "All graphs produced - PogChamp" << std::endl;
+    std::cout << std::endl << "All graphs produced - PogChamp" << std::endl;
     return 0;
 }
