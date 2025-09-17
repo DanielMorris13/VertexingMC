@@ -33,7 +33,7 @@ Dependencies:
 
 	mkdir build && cd build
 	
-	cmake ..
+	cmake ../VertexingMC
 
 	./fastMC
 
