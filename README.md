@@ -10,15 +10,19 @@ The simulation allows the study of reconstruction efficiency and acceptance for 
 
 Users can tune:
 
-	-	Particle multiplicity generation: Fixed, Uniform, or sampled from a user-provided distribution.
+	-	Particle multiplicity generation: 
+ 		- Fixed, 
+   		- Uniform,
+	 	- or sampled from a user-provided distribution
+   
 	-	Vertex position:
-	-	In the transverse plane (XY): Gaussian distribution.
-	-	Along the beam axis (Z): Gaussian or Uniform distribution.
+		-	In the transverse plane (XY): Gaussian distribution.
+		-	Along the beam axis (Z): Gaussian or Uniform distribution.
 
 Dependencies:
 
-	-	ROOT (v6.36)
-	-	CMake (> 3.10)
+	-	ROOT (>= v6.36)
+	-	CMake (>= 3.10)
 	-	C++17 or newer
 
 ## Quick Start
