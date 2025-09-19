@@ -35,6 +35,8 @@ Dependencies:
 	
 	cmake ../VertexingMC
 
+	make 
+ 
 	./fastMC
 
 ### Output
